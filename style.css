@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: linear-gradient(to bottom right,blueviolet, purple);
+}
+
+.boxes {
+    background-color: blueviolet;
+    width: 5vw;
+    height: 50vh;
+    margin: 1px;
+    flex-grow: 0;
+    border: 2px solid white;
+    opacity: 0.5;
+    transition-property: flex-grow border opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    border-radius: 20px;
+    
+}
+
+.boxes:hover {
+    flex-grow: 0.3;
+    opacity: 1;
+    border: 2px solid rgb(84, 3, 84);
+}
+
+#box1 {
+    background: url("https://image.api.playstation.com/vulcan/img/cfn/11307x4B5WLoVoIUtdewG4uJ_YuDRTwBxQy0qP8ylgazLLc01PBxbsFG1pGOWmqhZsxnNkrU3GXbdXIowBAstzlrhtQ4LCI4.png");
+    background-size: 27vw 50vh;
+}
+
+#box2 {
+    background: url("https://image.api.playstation.com/vulcan/img/rnd/202008/3107/m04V1Wbq0ag6IAp3UozdjSCh.png");
+    background-size: 27vw 50vh;
+
+}
+
+#box3 {
+    background: url("https://image.api.playstation.com/vulcan/ap/rnd/202402/1000/b22fc0cb7ab47612882ddc03595d8525f26ffa7c4089e1c2.png");
+    background-size: 27vw 50vh;
+}
+
+#box4 {
+    background: url("https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.png");
+    background-size: 27vw 50vh;
+}
+
+#box5 {
+    background: url("https://image.api.playstation.com/vulcan/img/rnd/202008/3107/m04V1Wbq0ag6IAp3UozdjSCh.png");
+    background-size: 27vw 50vh;
+}
